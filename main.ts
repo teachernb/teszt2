@@ -1,0 +1,10 @@
+basic.showString("3")
+basic.pause(500)
+basic.showString("2")
+basic.pause(500)
+basic.showString("1")
+basic.forever(function () {
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.pause(500)
+})
